@@ -1,0 +1,76 @@
+.search-div {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-item {
+  width: 70%;
+}
+
+.main-div {
+  padding: 20px;
+  text-align: center;
+  width: 70%;
+  margin: 10px auto;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+}
+
+.sub-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.sub-div h3 {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.delete-button,
+.done-button {
+  color: white;
+  border: none;
+  outline: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0px 10px;
+  letter-spacing: 0.25px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.delete-button {
+  background: rgb(255, 87, 65);
+}
+
+.done-button {
+  background: rgb(0, 163, 0);
+}
+.delete-button:hover,
+.done-button:hover {
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: rgb(177, 4, 4);
+}
+.done-button:hover {
+  background-color: rgb(1, 87, 1);
+}
+
+.empty-todo {
+  border: 1px solid green;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.not-completed {
+  text-decoration: none;
+}
